@@ -40,7 +40,7 @@
 - Disables `Magical Weapon`.
 - Duration lasts for `(1 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.
 
-## Frozen
+## Plagued
 
 - Disables `Health Regen`
 - Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.

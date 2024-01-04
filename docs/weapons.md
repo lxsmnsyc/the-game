@@ -22,5 +22,5 @@
 ## Forging
 
 - Outside of gameplay, a player can increase the `Weapon` quality by `Forging`.
-- `Forging` has a chance of destroying the `Weapon`.
-- The higher the `Weapon` quality is, the higher the risk of it being destroyed.
+- `Weapon` has a max `Quality` of 10.
+- `Forging` has chance of success of increasing quality. Starts at 100%, it decreases by 10% per successive `Forging`, otherwise it destroys the weapon.

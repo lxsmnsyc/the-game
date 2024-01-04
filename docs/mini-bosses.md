@@ -22,4 +22,5 @@
 
 ## Property
 
-- `Miniboss` have two random `Normal Property`.
+- Has the `Miniboss` property
+- `Miniboss` have one random `Offensive Property` and one random `Defensive Property`.

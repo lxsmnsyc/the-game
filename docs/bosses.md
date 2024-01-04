@@ -23,4 +23,7 @@
 
 ## Property
 
-- `Boss` has either one of the random `Special Property` or two random `Normal Property`.
+- Has the `Boss` property
+- `Boss` has either
+  - one random `Special Offensive Property` and two random `Defensive Property`.
+  - two random `Offensive Property` and one random `Special Defensive Property`.
