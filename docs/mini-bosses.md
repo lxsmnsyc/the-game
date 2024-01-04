@@ -20,4 +20,6 @@
 - `Miniboss` starts with 3 random `Passive Ability`, and gains a 5 `Active Ability` level per `Floor` level.
 - `Passive Ability` level points are applied randomly.
 
-## Buffs
+## Property
+
+- `Miniboss` have two random `Normal Property`.
