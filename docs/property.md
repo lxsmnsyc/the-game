@@ -1,0 +1,21 @@
+
+Buffs:
+- Divine: immunity to all debuffs
+- Ghost: immunity to physical damage
+- Stone: immunity to magical damage
+- Piercing: pierces physical armor
+- Arcane: pierces magic armor
+- Rockhead: immunity to Stun
+- Unshackled: immunity to Root
+- ???: immunity to Silence
+- ???: immunity to Disarm
+- Iceproof: immunity to Frozen
+- Fortified: immunity to Break
+- Mighty: immunity to Feeble
+- ???: immunity to Nullified
+- ???: immunity to Slow Casting
+- Blessed: immunity to Cursed
+- Haste: immunity to Cripple
+- Coldhearted: immunity to Charm
+- Brave: immunity to Fear
+- Focused: immunity to Confusion
