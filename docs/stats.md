@@ -10,7 +10,7 @@ Main Stats are the stats of the user that can be leveled up by choice.
 ### Strength
 
 - Each point increases `Physical Damage` by 2
-- Each point increases `Armor` by 0.75% (capped at 95%)
+- Each point increases `Armor` by 1
 
 ### Vitality
 
@@ -21,17 +21,17 @@ Main Stats are the stats of the user that can be leveled up by choice.
 ### Agility
 
 - Each point increases `Movespeed` by 1 (capped at 500)
-- Each point increases `Cooldown Reduction` by 0.75% (capped at 95%)
+- Each point increases `Cooldown Reduction` by 1
 
 ### Intelligence
 
 - Each point increases `Magical Damage` by 2
-- Each point increases `Magical Armor` by 0.75% (capped at 95%)
+- Each point increases `Magical Armor` by 1
 
 ### Luck
 
-- Each point increases `Critical Chance` by 0.75% (capped at 100%)
-- Each point increases `Status Resistance` by 0.75% (capped at 95%)
+- Each point increases `Critical Chance` by 1
+- Each point increases `Status Resistance` by 1
 
 ## Pseudo-Stats
 
@@ -50,8 +50,8 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 
 ### Recovery
 
-- Effectiveness of healing and `Health Regen`
-- Gains 1% `Recovery` per `Vitality`
+- Effectiveness of healing and `Health Regen` by 1% per point
+- Gains 1 `Recovery` per `Vitality`
 - Starts with 100% `Recovery`
 
 ### Physical Damage
@@ -60,8 +60,8 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 
 ### Physical Armor
 
-- Reduces incoming `Physical Damage`
-- Gains 0.75% `Physical Armor` per `Strength`, capped at 95%.
+- Reduces incoming `Physical Damage` by 0.75% per point, capped at 95% (although value can go beyond).
+- Gains 1 `Physical Armor` per `Strength`
 - Starts with 0 `Physical Armor`
 
 ### Magical Damage
@@ -70,7 +70,8 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 
 ### Magical Armor
 
-- Gains 0.75% `Magical Armor` per `Intelligence`, capped at 95%.
+- Reduces incoming `Magical Damage` by 0.75% per point, capped at 95% (although value can go beyond).
+- Gains 1 `Magical Armor` per `Intelligence`
 - Starts with 0 `Magical Armor`
 
 ### Movespeed
@@ -80,21 +81,21 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
   
 ### Cooldown Reduction
 
-- Decreases time between attacks.
-- Gains 0.75% `Cooldown Reduction` per `Agility` (capped at 95%)
-- Starts with 0% `Cooldown Reduction`
+- Decreases time between attacks by 0.75% per point, capped at 95% (although value can go beyond).
+- Gains 1 `Cooldown Reduction` per `Agility`
+- Starts with 0 `Cooldown Reduction`
 
 ### Status Resistance
 
-- Reduces the duration of the received `Debuff`.
-- Gains 0.75% `Status Resistance` per `Luck` (capped at 95%)
-- Starts with 0% `Status Resistance`
+- Reduces the duration of the received `Debuff` by 0.75% per point, capped at 95% (although value can go beyond).
+- Gains 1 `Status Resistance` per `Luck`
+- Starts with 0 `Status Resistance`
 
 ### Critical Chance
 
-- Chance of dealing amplified `Physical Damage`.
-- Gains 0.75% `Critical Chance` per `Luck` (capped at 100%)
-- Starts with 0% `Critical Chance`
+- Chance of dealing amplified `Physical Damage` by 0.75% per point, capped at 100% (although value can go beyond).
+- Gains 1 `Critical Chance` per `Luck` (capped at 100%)
+- Starts with 0 `Critical Chance`
   
 ### Critical Strike
 
@@ -113,7 +114,7 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 
 ### Duration
 
-- Effectiveness of `Debuff`, `Weapon` and `Active Ability` durations.
+- Effectiveness of `Debuff`, `Weapon`, `Active Ability` and `Passive Ability` durations.
 - Starts with 100% `Duration`
 
 ### Speed
