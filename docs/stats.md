@@ -10,7 +10,7 @@ Main Stats are the stats of the user that can be leveled up by choice.
 ### Strength
 
 - Each point increases `Physical Damage` by 2
-- Each point increases `Armor` by 1
+- Each point increases `Physical Defense` by 1
 
 ### Vitality
 
@@ -26,7 +26,7 @@ Main Stats are the stats of the user that can be leveled up by choice.
 ### Intelligence
 
 - Each point increases `Magical Damage` by 2
-- Each point increases `Magical Armor` by 1
+- Each point increases `Magical Defense` by 1
 
 ### Luck
 
@@ -57,22 +57,24 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 ### Physical Damage
 
 - Gains 2 `Physical Damage` per `Strength`
+- Starts with 10 `Physical Damage`
 
-### Physical Armor
+### Physical Defense
 
 - Reduces incoming `Physical Damage` by 0.75% per point, capped at 95% (although value can go beyond).
-- Gains 1 `Physical Armor` per `Strength`
-- Starts with 0 `Physical Armor`
+- Gains 1 `Physical Defense` per `Strength`
+- Starts with 0 `Physical Defense`
 
 ### Magical Damage
 
 - Gains 2 `Magical Damage` per `Intelligence`
+- Starts with 10 `Magical Damage`
 
-### Magical Armor
+### Magical Defense
 
 - Reduces incoming `Magical Damage` by 0.75% per point, capped at 95% (although value can go beyond).
-- Gains 1 `Magical Armor` per `Intelligence`
-- Starts with 0 `Magical Armor`
+- Gains 1 `Magical Defense` per `Intelligence`
+- Starts with 0 `Magical Defense`
 
 ### Movespeed
 

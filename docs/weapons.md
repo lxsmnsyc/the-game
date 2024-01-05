@@ -24,3 +24,14 @@
 - Outside of gameplay, a player can increase the `Weapon` quality by `Forging`.
 - `Weapon` has a max `Quality` of 10.
 - `Forging` has chance of success of increasing quality. Starts at 100%, it decreases by 10% per successive `Forging`, otherwise it destroys the weapon.
+
+## Rarity & Merging
+
+- Three same `Weapon` of the same `Rarity` can be merged to produce the same `Weapon` of higher `Rarity`.
+- `Weapon` quality does not carry over to the merged `Weapon`.
+
+- `Common Weapon`: 100% stat multiplier
+- `Uncommon Weapon`: 200% stat multiplier
+- `Rare Weapon`: 300% stat multiplier
+- `Legendary Weapon`: 400% stat multiplier
+- `Mythical Weapon`: 500% stat multiplier

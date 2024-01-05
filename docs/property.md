@@ -6,7 +6,7 @@
   - `Supreme Defensive`
   - `Offensive`
   - `Defensive`
-- `Supreme` properties are provided through `Head` and `Armor` equipments.
+- `Supreme` properties are provided through `Headgear` and `Armor` equipments.
 - non-`Supreme` properties are provided through `Gem`.
 
 ## Hidden
@@ -23,11 +23,11 @@
 
 ### Piercing
 
-- `Physical Damage` dealt is not reduced by `Physical Armor`
+- `Physical Damage` dealt is not reduced by `Physical Defense`
 
 ### Arcane
 
-- `Magical Damage` dealt is not reduced by `Magical Armor`
+- `Magical Damage` dealt is not reduced by `Magical Defense`
 
 ### Destructive
 

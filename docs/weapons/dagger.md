@@ -2,5 +2,5 @@
 
 ## Description
 
-- Deals `(100 + (5 * Ability Level))% * Physical Damage` to one random unit within `100 * Area` radius.
-- Has a `2 * (1 - Cooldown Reduction)` seconds.
+- Deals `(5 * Ability Level) + ((100 * (10% * Quality))% * Physical Damage)` to one random unit within `100 * Area` radius.
+- Has a `1 * (1 - Cooldown Reduction)` seconds.
