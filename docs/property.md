@@ -49,7 +49,7 @@
 
 - Immunity to all debuffs
 
-### Ghost
+### Phasing
 
 - Immunity to `Physical` attacks
 
@@ -103,7 +103,7 @@
 
 - Attacks has a 10% chance to apply `Cursed`
 
-### ???
+### Stunning
 
 - Attacks has a 10% chance to apply `Stunned`
 
@@ -155,7 +155,7 @@
 
 - Attacks has a 10% chance to apply `Taunted`
 
-### Terrorizing
+### Ghastly
 
 - Attacks has a 10% chanceto apply `Feared`
 
