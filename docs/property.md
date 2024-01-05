@@ -89,6 +89,14 @@
 
 ## Defensive Property
 
+### Vampiric
+
+- Heals `Health` by 25% of the `Physical Damage` dealt.
+
+### Draining
+
+- Heals `Health` by 25% of the `Magical Damage` dealt.
+
 ### Synchronous
 
 - Returns the same debuff received to its source.
