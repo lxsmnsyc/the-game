@@ -87,6 +87,82 @@
 
 - Increases `Cast Range` by 100%
 
+### Poisonous
+
+- Attacks has a 10% chance to apply `Poisoned`
+
+### Serrated
+
+- Attacks has a 10% chance to apply `Bleeding`
+
+### Flaming
+
+- Attacks has a 10% chance to apply `Flaming`
+
+### Voodoo
+
+- Attacks has a 10% chance to apply `Cursed`
+
+### ???
+
+- Attacks has a 10% chance to apply `Stunned`
+
+### Trapping
+
+- Attacks has a 10% chance to apply `Ensnared`
+
+### Disarming
+
+- Attacks has a 10% chance to apply `Disarmed`
+
+### Silencing
+
+- Attacks has a 10% chance to apply `Silenced`
+
+### Plaguing
+
+- Attacks has a 10% chance to apply `Plagued`
+
+### Breaking
+
+- Attacks has a 10% chance to apply `Broken`
+
+### Tragic
+
+- Attacks has a 10% chance to apply `Jinxed`
+
+### Weakening
+
+- Attacks has a 10% chance to apply `Weakening`
+
+### Nullifying
+
+- Attacks has a 10% chance to apply `Nullified`
+
+### Freezing
+
+- Attacks has a 10% chance to apply `Frozen`
+
+### Crippling
+
+- Attacks has a 10% chance to apply `Crippled`
+
+### Charming
+
+- Attacks has a 10% chance to apply `Charmed`
+
+### Taunting
+
+- Attacks has a 10% chance to apply `Taunted`
+
+### Terrorizing
+
+- Attacks has a 10% chanceto apply `Feared`
+
+### Confusing
+
+- Attacks has a 10% chance to apply `Confused`
+
 ## Defensive Property
 
 ### Vampiric
@@ -139,7 +215,7 @@
 
 ### Mighty
 
-- Immunity to `Feebled`
+- Immunity to `Weakened`
 
 ### Supreme
 

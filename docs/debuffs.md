@@ -15,7 +15,7 @@
 - Deals `(3 * Physical Damage) * (1 - (Armor / 100))` non-fatal magical damage per second.
 - Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.
 
-## Agony
+## Cursed
 
 - Deals `(3 * Physical Damage) * (1 - (Armor / 100))` fatal magical damage per second.
 - Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.
@@ -50,12 +50,12 @@
 - Reduces `Physical Armor` by `5% * Debuff Level`
 - Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.
 
-## Cursed
+## Jinxed
 
 - Reduces `Magical Armor` by `5% * Debuff Level`
 - Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.
 
-## Feebled
+## Weakened
 
 - Reduces `Physical Damage` by `5% * Debuff Level`
 - Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.
@@ -65,7 +65,7 @@
 - Reduces `Magical Damage` by `5% * Debuff Level`
 - Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.
 
-## Timelocked
+## Frozen
 
 - Reduces Cooldown Reduction by `5% * Debuff Level`
 - Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Status Resistance / 100))` seconds.
