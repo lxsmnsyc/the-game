@@ -25,5 +25,5 @@
 
 - Has the `Boss` property
 - `Boss` has either
-  - one random `Special Offensive Property` and two random `Defensive Property`.
-  - two random `Offensive Property` and one random `Special Defensive Property`.
+  - one random `Supreme Offensive Property` and two random `Defensive Property`.
+  - two random `Offensive Property` and one random `Supreme Defensive Property`.

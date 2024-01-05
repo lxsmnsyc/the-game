@@ -2,12 +2,12 @@
 
 ## Head
 
-- Can have one `Special Offensive Property`
+- Can have one `Supreme Offensive Property`
 - Can have four `Offensive Property`
 
 ## Armor
 
-- Can have one `Special Defensive Property`
+- Can have one `Supreme Defensive Property`
 - Can have four `Defensive Property`
 
 ## Foot

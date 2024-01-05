@@ -2,12 +2,12 @@
 
 - Four kinds of properties:
   - `Hidden`
-  - `Special Offensive`
-  - `Special Defensive`
+  - `Supreme Offensive`
+  - `Supreme Defensive`
   - `Offensive`
   - `Defensive`
-- `Special` properties are provided through `Head` and `Armor` equipments.
-- non-`Special` properties are provided through `Gem`.
+- `Supreme` properties are provided through `Head` and `Armor` equipments.
+- non-`Supreme` properties are provided through `Gem`.
 
 ## Hidden
 
@@ -19,7 +19,7 @@
 
 - Increases all pseudo-stats by 50%
 
-## Special Offensive Property
+## Supreme Offensive Property
 
 ### Piercing
 
@@ -37,7 +37,7 @@
 
 - Increases `Magical Damage` by 100%
 
-## Special Defensive Property
+## Supreme Defensive Property
 
 ### Invisible
 
