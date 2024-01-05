@@ -7,7 +7,7 @@
   - `Offensive`
   - `Defensive`
 - `Supreme` properties are provided through `Headgear` and `Armor` equipments.
-- non-`Supreme` properties are provided through `Gem`.
+- non-`Supreme` properties are provided through `Rune`.
 
 ## Hidden
 
