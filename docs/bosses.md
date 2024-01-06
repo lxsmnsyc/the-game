@@ -5,6 +5,9 @@
 
 ## Stats
 
+- `Boss` enemies are given 15 stat points and 3 stat points per level.
+- All points are applied randomly.
+
 ## Weapons
 
 - `Boss` starts with 5 random `Weapons`, and gains a 5 `Weapon` level per `Floor` level.
@@ -55,12 +58,12 @@
     - two random `Weapon` or `Equipment` of `Mythical` quality.
     - two random `Rune` of `Offensive` or `Defensive` property.
   - otherwise at 0.0625% chance (1 of 1600)
-    - a random `Weapon` or `Equipment` of `Epic` quality
+    - a random `Weapon` or `Equipment` of `Epic` quality.
     - three random `Rune` of `Offensive` or `Defensive` property.
   - otherwise at 0.03125% chance (1 of 3200)
-    - two random `Weapon` or `Equipment` of `Epic` quality
+    - two random `Weapon` or `Equipment` of `Epic` quality.
     - three random `Rune` of `Offensive` or `Defensive` property.
   - otherwise at 0.015625% chance (1 of 6400)
-    - one random `Supreme Weapon` or `Supreme Equipment` of `Primordial` quality
+    - one random `Weapon` or `Equipment` of `Primordial` quality with `Supreme` property.
     - four random `Rune` of `Offensive` or `Defensive` property.
 - The chance table shares the same instance of odds.

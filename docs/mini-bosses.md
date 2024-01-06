@@ -6,6 +6,9 @@
 
 ## Stats
 
+- `Boss` enemies are given 15 stat points and 3 stat points per level.
+- All points are applied randomly.
+
 ## Weapons
 
 - `Miniboss` starts with 1 random `Weapon`, and gains a 5 `Weapon` level per `Floor` level.
@@ -24,3 +27,7 @@
 
 - Has the `Miniboss` property
 - `Miniboss` have one random `Offensive Property` and one random `Defensive Property`.
+
+## Drops
+
+- `Miniboss` acts as a `Floor` obstacle and so there are no rewards when killing a `Miniboss`.

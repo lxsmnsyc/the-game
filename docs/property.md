@@ -13,11 +13,17 @@
 
 ### Boss
 
-- Increases all pseudo-stats by 100%
+- Increases all pseudo-stats by 200%
+- Applies before reductions
 
 ### Miniboss
 
-- Increases all pseudo-stats by 50%
+- Increases all pseudo-stats by 100%
+- Applies before reductions
+
+### Invulnerable
+
+- Immune to all debuffs and damages.
 
 ## Supreme Offensive Property
 
@@ -31,11 +37,23 @@
 
 ### Destructive
 
-- Increases `Physical Damage` by 100%
+- Increases `Physical Damage` by 200%
+- Applies before reductions
 
 ### Diabolic
 
-- Increases `Magical Damage` by 100%
+- Increases `Magical Damage` by 200%
+- Applies before reductions
+
+### ???
+
+- Increases `Physical Damage` dealt by 100%
+- Applies after reductions
+
+### ???
+
+- Increases `Magical Damage` dealt by 100%
+- Applies after reductions
 
 ## Supreme Defensive Property
 
@@ -70,98 +88,103 @@
 ### Double-Handed
 
 - Increases `Physical Damage` by 50%
+- Applies before reductions
 
 ### Blasting
 
 - Increases `Magical Damage` by 50%
+- Applies before reductions
 
 ### Gigantic
 
 - Increases `Area` by 100%
+- Applies before reductions
 
 ### Sharp
 
 - Increases `Critical Damage` by 100%
+- Applies before reductions
 
 ### Clear
 
 - Increases `Cast Range` by 100%
+- Applies before reductions
 
 ### Poisonous
 
-- Attacks has a 10% chance to apply `Poisoned`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Poisoned`
 
 ### Serrated
 
-- Attacks has a 10% chance to apply `Bleeding`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Bleeding`
 
 ### Flaming
 
-- Attacks has a 10% chance to apply `Flaming`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Flaming`
 
 ### Voodoo
 
-- Attacks has a 10% chance to apply `Cursed`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Cursed`
 
 ### Stunning
 
-- Attacks has a 10% chance to apply `Stunned`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Stunned`
 
 ### Trapping
 
-- Attacks has a 10% chance to apply `Ensnared`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Ensnared`
 
 ### Disarming
 
-- Attacks has a 10% chance to apply `Disarmed`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Disarmed`
 
 ### Silencing
 
-- Attacks has a 10% chance to apply `Silenced`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Silenced`
 
 ### Plaguing
 
-- Attacks has a 10% chance to apply `Plagued`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Plagued`
 
 ### Breaking
 
-- Attacks has a 10% chance to apply `Broken`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Broken`
 
 ### Tragic
 
-- Attacks has a 10% chance to apply `Jinxed`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Jinxed`
 
 ### Weakening
 
-- Attacks has a 10% chance to apply `Weakening`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Weakening`
 
 ### Nullifying
 
-- Attacks has a 10% chance to apply `Nullified`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Nullified`
 
 ### Freezing
 
-- Attacks has a 10% chance to apply `Frozen`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Frozen`
 
 ### Crippling
 
-- Attacks has a 10% chance to apply `Crippled`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Crippled`
 
 ### Charming
 
-- Attacks has a 10% chance to apply `Charmed`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Charmed`
 
 ### Taunting
 
-- Attacks has a 10% chance to apply `Taunted`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Taunted`
 
 ### Ghastly
 
-- Attacks has a 10% chanceto apply `Feared`
+- Attacks has a `5% + (0.75% * Luck)` chanceto apply `Feared`
 
 ### Confusing
 
-- Attacks has a 10% chance to apply `Confused`
+- Attacks has a `5% + (0.75% * Luck)` chance to apply `Confused`
 
 ## Defensive Property
 
@@ -180,10 +203,12 @@
 ### Resonating
 
 - Returns the same amount of received `Physical Damage`
+- Applies before reductions
 
 ### Reflective
 
 - Returns the same amount of received `Magical Damage`
+- Applies before reductions
 
 ### Sturdy
 
