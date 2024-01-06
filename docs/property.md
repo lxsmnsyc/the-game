@@ -31,7 +31,7 @@
 
 - `Physical Damage` dealt is not reduced by `Physical Defense`
 
-### Arcane
+### Superior
 
 - `Magical Damage` dealt is not reduced by `Magical Defense`
 
@@ -45,15 +45,19 @@
 - Increases `Magical Damage` by 200%
 - Applies before reductions
 
-### ???
+### Deadly
 
 - Increases `Physical Damage` dealt by 100%
 - Applies after reductions
 
-### ???
+### Arcane
 
 - Increases `Magical Damage` dealt by 100%
 - Applies after reductions
+
+### Mystic
+
+- Attacks has a `5% + (0.75% * Luck)` chance to apply a random debuff.
 
 ## Supreme Defensive Property
 
