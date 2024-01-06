@@ -12,12 +12,12 @@
 
 ## Boss
 
-- `Boss` are given 5 random `Weapon` and gains 5 `Weapon` level per `Floor` level.
+- `Boss` are given 5 random `Weapon` of random `Rarity` and gains 5 `Weapon` level per `Floor` level.
 - `Weapon` level points are applied randomly.
 
 ## Miniboss
 
-- `Miniboss` are given 1 random `Weapon` and gains 5 `Weapon` level per `Floor` level.
+- `Miniboss` are given 1 random `Weapon` of random `Rarity` and gains 5 `Weapon` level per `Floor` level.
 - `Weapon` level points are applied randomly.
 
 ## Forging
@@ -39,3 +39,5 @@
 - Three same `Weapon` of the same `Rarity` can be merged to produce the same `Weapon` of higher `Rarity`.
 - `Weapon` quality does not carry over to the merged `Weapon`.
 - `Primordial Weapon` cannot be achieved through merging and can only be acquired through `Boss` drops.
+- `Primordial Weapon` have names.
+- `Primordial Weapon` is guaranteed to have a random `Supreme Property`

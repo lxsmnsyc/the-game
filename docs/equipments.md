@@ -37,3 +37,5 @@
 - Three same `Equipment` of the same `Rarity` can be merged to produce the same `Equipment` of higher `Rarity`.
 - `Equipment` quality does not carry over to the merged `Equipment`.
 - `Primordial Equipment` cannot be achieved through merging and can only be acquired through `Boss` drops.
+- `Primordial Equipment` have names.
+- `Primordial Equipment` is guaranteed to have a random `Supreme Property`

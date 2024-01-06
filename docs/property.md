@@ -6,7 +6,7 @@
   - `Supreme Defensive`
   - `Offensive`
   - `Defensive`
-- `Supreme` properties are provided through `Headgear` and `Armor` equipments.
+- `Supreme` properties are provided through `Primordial Headgear` and `Primordial Armor` equipments.
 - non-`Supreme` properties are provided through `Rune`.
 
 ## Hidden
