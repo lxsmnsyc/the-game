@@ -41,10 +41,6 @@
 
 - Immunity to `Magical` attacks
 
-### Synchronous
-
-- Returns the same debuff received to its source.
-
 ### Divine
 
 - Immunity to all debuffs.
@@ -75,9 +71,10 @@
 
 - Increases `Magical Damage` dealt by `10% * Property Level` (after reductions)
 
-### Mystic
+### Chaotic
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply a random debuff of level `Property Level`.
+- Attacks has a `5%` chance to apply a random debuff of level `Property Level`.
+- Improved by `Luck`
 
 ### Gigantic
 
@@ -91,81 +88,100 @@
 
 - Increases `Cast Range` by `20% * Property Level` (before reductions)
 
-### Poisonous
+### Venomous
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Poisoned` of level `Property Level`
+- Attacks has a `5%` chance to apply `Poisoned` of level `Property Level`
+- Improved by `Luck`
 
 ### Serrated
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Bleeding` of level `Property Level`
+- Attacks has a `5%` chance to apply `Bleeding` of level `Property Level`
+- Improved by `Luck`
 
 ### Flaming
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Flaming` of level `Property Level`
+- Attacks has a `5%` chance to apply `Flaming` of level `Property Level`
+- Improved by `Luck`
 
 ### Voodoo
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Cursed` of level `Property Level`
+- Attacks has a `5%` chance to apply `Cursed` of level `Property Level`
+- Improved by `Luck`
 
 ### Stunning
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Stunned` of level `Property Level`
+- Attacks has a `5%` chance to apply `Stunned` of level `Property Level`
+- Improved by `Luck`
 
 ### Trapping
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Ensnared` of level `Property Level`
+- Attacks has a `5%` chance to apply `Ensnared` of level `Property Level`
+- Improved by `Luck`
 
 ### Disarming
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Disarmed` of level `Property Level`
+- Attacks has a `5%` chance to apply `Disarmed` of level `Property Level`
+- Improved by `Luck`
 
 ### Silencing
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Silenced` of level `Property Level`
+- Attacks has a `5%` chance to apply `Silenced` of level `Property Level`
+- Improved by `Luck`
 
 ### Plaguing
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Plagued` of level `Property Level`
+- Attacks has a `5%` chance to apply `Plagued` of level `Property Level`
+- Improved by `Luck`
 
 ### Breaking
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Broken` of level `Property Level`
+- Attacks has a `5%` chance to apply `Broken` of level `Property Level`
+- Improved by `Luck`
 
 ### Tragic
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Jinxed` of level `Property Level`
+- Attacks has a `5%` chance to apply `Jinxed` of level `Property Level`
+- Improved by `Luck`
 
 ### Weakening
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Weakened` of level `Property Level`
+- Attacks has a `5%` chance to apply `Weakened` of level `Property Level`
+- Improved by `Luck`
 
 ### Nullifying
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Nullified` of level `Property Level`
+- Attacks has a `5%` chance to apply `Nullified` of level `Property Level`
+- Improved by `Luck`
 
 ### Freezing
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Frozen` of level `Property Level`
+- Attacks has a `5%` chance to apply `Frozen` of level `Property Level`
+- Improved by `Luck`
 
 ### Crippling
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Crippled` of level `Property Level`
+- Attacks has a `5%` chance to apply `Crippled` of level `Property Level`
+- Improved by `Luck`
 
-### Charming
+### Seducing
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Charmed` of level `Property Level`
+- Attacks has a `5%` chance to apply `Charmed` of level `Property Level`
+- Improved by `Luck`
 
-### Taunting
+### Provoking
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Taunted` of level `Property Level`
+- Attacks has a `5%` chance to apply `Taunted` of level `Property Level`
+- Improved by `Luck`
 
-### Ghastly
+### Terrorizing
 
-- Attacks has a `5% + (0.75% * Luck)` chanceto apply `Feared` of level `Property Level`
+- Attacks has a `5%` chance to apply `Feared` of level `Property Level`
+- Improved by `Luck`
 
-### Confusing
+### Gyrating
 
-- Attacks has a `5% + (0.75% * Luck)` chance to apply `Confused` of level `Property Level`
+- Attacks has a `5%` chance to apply `Confused` of level `Property Level`
+- Improved by `Luck`
 
 ## Defensive Property
 
@@ -260,3 +276,53 @@
 ### Focused
 
 - Reduces duration of received `Confused` debuffs by `10% * Property Level` (after reductions)
+
+### Poisonous
+
+- Has a `5%` chance to apply `Poisoned` of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Barbed
+
+- Has a `5%` chance to apply `Bleeding` of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Fiery
+
+- Has a `5%` chance to apply `Flaming` of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Dark
+
+- Has a `5%` chance to apply `Cursed` of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Charming
+
+- Has a `5%` chance to apply `Charmed` of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Taunting
+
+- Has a `5%` chance to apply `Taunted` of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Ghastly
+
+- Has a `5%` chanceto apply `Feared` of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Confusing
+
+- Has a `5%` chance to apply `Confused` of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Mystic
+
+- Has a `5%` chance to apply a random debuff of level `Property Level` when attacked.
+- Improved by `Luck`
+
+### Synchronous
+
+- Has a `5%` chance to apply a the same debuff received to its source.
+- Improved by `Luck`

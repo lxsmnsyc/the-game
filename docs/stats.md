@@ -33,6 +33,10 @@ Main Stats are the stats of the user that can be leveled up by choice.
 - Each point increases `Critical Chance` by 1
 - Each point increases `Status Resistance` by 1
 
+> **NOTE**
+> Percentage-scaling that is affected by stats follows the same formula:
+> `80 * (1 - (2.718281828459 ** -(Stat / 60)))`
+
 ## Pseudo-Stats
 
 Pseudo-Stats are stats whose values are mainly derived from Main Stats.
@@ -50,7 +54,7 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 
 ### Recovery
 
-- Effectiveness of healing and `Health Regen` by 1% per point
+- Effectiveness of healing and `Health Regen`
 - Gains 1 `Recovery` per `Vitality`
 - Starts with 100% `Recovery`
 
@@ -61,7 +65,7 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 
 ### Physical Defense
 
-- Reduces incoming `Physical Damage` by 0.75% per point, capped at 95% (although value can go beyond).
+- Reduces incoming `Physical Damage`
 - Gains 1 `Physical Defense` per `Strength`
 - Starts with 0 `Physical Defense`
 
@@ -72,7 +76,7 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 
 ### Magical Defense
 
-- Reduces incoming `Magical Damage` by 0.75% per point, capped at 95% (although value can go beyond).
+- Reduces incoming `Magical Damage`
 - Gains 1 `Magical Defense` per `Intelligence`
 - Starts with 0 `Magical Defense`
 
@@ -83,20 +87,20 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
   
 ### Cooldown Reduction
 
-- Decreases time between attacks by 0.75% per point, capped at 95% (although value can go beyond).
+- Decreases time between attacks.
 - Gains 1 `Cooldown Reduction` per `Agility`
 - Starts with 0 `Cooldown Reduction`
 
 ### Status Resistance
 
-- Reduces the duration of the received `Debuff` by 0.75% per point, capped at 95% (although value can go beyond).
+- Reduces the duration of the received `Debuff`
 - Gains 1 `Status Resistance` per `Luck`
 - Starts with 0 `Status Resistance`
 
 ### Critical Chance
 
-- Chance of dealing amplified `Physical Damage` by 0.75% per point, capped at 100% (although value can go beyond).
-- Gains 1 `Critical Chance` per `Luck` (capped at 100%)
+- Chance of dealing amplified `Physical Damage`
+- Gains 1 `Critical Chance` per `Luck`
 - Starts with 0 `Critical Chance`
   
 ### Critical Strike
