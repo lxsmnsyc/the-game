@@ -169,17 +169,21 @@
 
 ## Defensive Property
 
+### Rejuvenating
+
+- Increases `Recovery` by `20% * Property Level` (after reductions)
+
 ### Holy
 
-- Reduces duration of received debuffs by `10% * Property Level`
+- Reduces duration of received debuffs by `10% * Property Level` (after reductions)
 
 ### Intangible
 
-- Reduces `Physical Damage` by `10% * Property Level`
+- Reduces received `Physical Damage` by `10% * Property Level` (before reductions)
 
 ### Ancient
 
-- Reduces `Magical Damage` by `10% * Property Level`
+- Reduces received `Magical Damage` by `10% * Property Level` (before reductions)
 
 ### Vampiric
 
@@ -199,60 +203,60 @@
 
 ### Sturdy
 
-- Reduces duration of received `Stunned` debuffs by `10% * Property Level`
+- Reduces duration of received `Stunned` debuffs by `10% * Property Level` (after reductions)
 
 ### Unshackled
 
-- Reduces duration of received `Ensnared` debuffs by `10% * Property Level`
+- Reduces duration of received `Ensnared` debuffs by `10% * Property Level` (after reductions)
 
 ### Unsealed
 
-- Reduces duration of received `Silenced` debuffs by `10% * Property Level`
+- Reduces duration of received `Silenced` debuffs by `10% * Property Level` (after reductions)
 
 ### Prepared
 
-- Reduces duration of received `Disarmed` debuffs by `10% * Property Level`
+- Reduces duration of received `Disarmed` debuffs by `10% * Property Level` (after reductions)
 
 ### Healthy
 
-- Reduces duration of received `Plagued` debuffs by `10% * Property Level`
+- Reduces duration of received `Plagued` debuffs by `10% * Property Level` (after reductions)
 
 ### Fortified
 
-- Reduces duration of received `Broken` debuffs by `10% * Property Level`
+- Reduces duration of received `Broken` debuffs by `10% * Property Level` (after reductions)
 
 ### Blessed
 
-- Reduces duration of received `Cursed` debuffs by `10% * Property Level`
+- Reduces duration of received `Cursed` debuffs by `10% * Property Level` (after reductions)
 
 ### Mighty
 
-- Reduces duration of received `Weakened` debuffs by `10% * Property Level`
+- Reduces duration of received `Weakened` debuffs by `10% * Property Level` (after reductions)
 
 ### Supreme
 
-- Reduces duration of received `Nullified` debuffs by `10% * Property Level`
+- Reduces duration of received `Nullified` debuffs by `10% * Property Level` (after reductions)
 
-### Perceptive
+### Warm
 
-- Reduces duration of received `Timelocked` debuffs by `10% * Property Level`
+- Reduces duration of received `Frozen` debuffs by `10% * Property Level` (after reductions)
 
 ### Quick
 
-- Reduces duration of received `Crippled` debuffs by `10% * Property Level`
+- Reduces duration of received `Crippled` debuffs by `10% * Property Level` (after reductions)
 
 ### Coldhearted
 
-- Reduces duration of received `Charmed` debuffs by `10% * Property Level`
+- Reduces duration of received `Charmed` debuffs by `10% * Property Level` (after reductions)
 
 ### Unprovoked
 
-- Reduces duration of received `Taunted` debuffs by `10% * Property Level`
+- Reduces duration of received `Taunted` debuffs by `10% * Property Level` (after reductions)
 
 ### Brave
 
-- Reduces duration of received `Feared` debuffs by `10% * Property Level`
+- Reduces duration of received `Feared` debuffs by `10% * Property Level` (after reductions)
 
 ### Focused
 
-- Reduces duration of received `Confused` debuffs by `10% * Property Level`
+- Reduces duration of received `Confused` debuffs by `10% * Property Level` (after reductions)
