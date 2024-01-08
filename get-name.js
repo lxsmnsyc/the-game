@@ -57,7 +57,7 @@ const followedByVowel = {
   v: VOWELS + 'hlrstz',
   w: VOWELS + CONSONANTS,
   x: VOWELS + 'hlrstxz',
-  y: CONSONANTS,
+  y: CONSONANTS + 'aeiou',
   z: VOWELS + 'hlrstz'
 };
 
@@ -111,5 +111,5 @@ function getName(steps) {
 }
 
 for (let i = 0; i < 10; i++) {
-  console.log(getName(10))
+  console.log(getName(12))
 }

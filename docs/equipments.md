@@ -2,26 +2,26 @@
 
 ## Headgear
 
-- Can have one `Supreme Offensive Property`
 - Can have four `Offensive Property`
-- Can only have one `Headgear`
+- `Player` can only equip one `Headgear`
 - Grants stats and offensive pseudo-stats
 
 ## Armor
 
-- Can have one `Supreme Defensive Property`
 - Can have four `Defensive Property`
-- Can only have one `Armor`
+- `Player` can only equip one `Armor`
 - Grants stats and defensive pseudo-stats
 
 ## Footgear
 
 - Access to hidden `Passive Ability`
+- `Player` can only equip one `Footgear`
 - Grants pseudo-stats
 
 ## Accessory
 
 - Access to hidden `Active Ability`
+- `Player` can only equip two `Accessory`
 - Grants pseudo-stats
 
 ## Rarity & Merging
@@ -38,4 +38,3 @@
 - `Equipment` quality does not carry over to the merged `Equipment`.
 - `Primordial Equipment` cannot be achieved through merging and can only be acquired through `Boss` drops.
 - `Primordial Equipment` have names.
-- `Primordial Equipment` is guaranteed to have a random `Supreme Property`

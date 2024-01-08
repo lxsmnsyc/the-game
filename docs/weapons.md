@@ -40,4 +40,3 @@
 - `Weapon` quality does not carry over to the merged `Weapon`.
 - `Primordial Weapon` cannot be achieved through merging and can only be acquired through `Boss` drops.
 - `Primordial Weapon` have names.
-- `Primordial Weapon` is guaranteed to have a random `Supreme Property`

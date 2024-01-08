@@ -26,7 +26,8 @@
 ## Property
 
 - Has the `Miniboss` property
-- `Miniboss` have one random `Offensive Property` and one random `Defensive Property`.
+- `Miniboss` enemies have 2 random `Offensive Property` and 2 random `Defensive` Property`
+- `Miniboss` gains 4 `Property` level per `Floor` level, and is distributed randomly.
 
 ## Drops
 
