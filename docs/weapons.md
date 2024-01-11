@@ -12,13 +12,11 @@
 
 ## Boss
 
-- `Boss` are given 5 random `Weapon` of random `Rarity` and gains 5 `Weapon` level per `Floor` level.
-- `Weapon` level points are applied randomly.
+- `Boss` are given 5 random `Weapon` of random `Rarity`.
 
 ## Miniboss
 
-- `Miniboss` are given 1 random `Weapon` of random `Rarity` and gains 5 `Weapon` level per `Floor` level.
-- `Weapon` level points are applied randomly.
+- `Miniboss` are given 1 random `Weapon` of random `Rarity`.
 
 ## Forging
 

@@ -21,7 +21,7 @@ Main Stats are the stats of the user that can be leveled up by choice.
 ### Agility
 
 - Each point increases `Movespeed` by 1 (capped at 500)
-- Each point increases `Casting Time Reduction` by 1
+- Each point increases `Cooldown Reduction` by 1
 
 ### Intelligence
 
@@ -85,21 +85,16 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 
 ### Movespeed
 
-- Gains 1 `Movespeed` per `Agility` (capped undefined).
+- Gains 5 `Movespeed` per `Agility` (capped undefined).
 - Starts with 300 `Movespeed`
+- Capped at 1000 `Movespeed`
   
 ### Cooldown Reduction
 
 - Decreases time between attacks.
+- Gains 1 `Cooldown Reduction` per `Agility`
 - Starts with 0 `Cooldown Reduction`
 - `Cooldown Reduction` is a percentage-scaling pseudo stat.
-
-### Casting Time Reduction
-
-- Reduces the time it takes for the attack to trigger.
-- Gains 1 `Casting Time Reduction` per `Agility`
-- Starts with 0 `Casting Time Reduction`
-- `Casting Time Reduction` is a percentage-scaling pseudo stat.
 
 ### Debuff Resistance
 
@@ -118,7 +113,7 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 ### Critical Strike
 
 - `Physical Damage` multiplier when `Critical Chance` occurs.
-- Starts with 100% `Critical Strike`
+- Starts with 200% `Critical Strike`
 
 ### Area
 
