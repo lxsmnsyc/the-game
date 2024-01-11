@@ -34,3 +34,4 @@
 - An unlocked `Floor` level can be resumed by the `Player` when starting the game.
 - When starting with an unlocked `Floor` level, levels are adjusted automatically for both the `Player`, `Miniboss` and `Boss`.
 - When starting a `Floor`, the `Player` must start the game manually first before the game-time starts ticking.
+- Resuming a `Floor` level means starting on its first `Wave`
