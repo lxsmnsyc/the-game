@@ -21,10 +21,10 @@
 - A `Floor` has 10 waves.
 - Wave `5` spawns the `Miniboss`
 - Wave `10` spawns the `Boss`.
-- Wave enemy count is defined as `5 * (((Floor Level - 1) * 10) + Floor Wave Count)`
-  - At Floor 10, the first wave (Wave 91) spawns with `455` enemies.
-  - At Floor 50, the first wave (Wave 491) spawns with `2455` enemies.
-  - At Floor 100 the first wave (Wave 991), spawns with `4955` enemies.
+- Wave enemy count is defined as `5 + 3 * (((Floor Level - 1) * 10) + Floor Wave Count)`
+  - At `Floor` 10, the first wave (Wave 91) spawns with `278` enemies.
+  - At `Floor` 50, the first wave (Wave 491) spawns with `1478` enemies.
+  - At `Floor` 100 the first wave (Wave 991), spawns with `2978` enemies.
 - Despite the amount, the number of enemies that can spawn at a time is capped at `200`.
 - Once an enemy dies, and there's still remaining enemies that needs to be spawned, one enemy spawns outside of the player's screen area. Repeats until the cap is reached or there's no more enemy to spawn.
 - `Boss` and `Miniboss` is excluded from the cap.
