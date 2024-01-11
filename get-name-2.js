@@ -6,7 +6,6 @@ const NUCLEUS = [
   'u',
   'ae',
   'ai',
-  'ao',
   'au',
   'ea',
   'ei',
@@ -26,17 +25,9 @@ const NUCLEUS = [
   'ue',
   'ui',
   'uo',
-  'ya',
-  'ye',
-  'yi',
-  'yo',
-  'yu',
 ];
 const ONSET = [
   'b',
-  'bh',
-  'bhl',
-  'bhr',
   'bl',
   'br',
   'c',
@@ -49,8 +40,6 @@ const ONSET = [
   'dh',
   'dr',
   'f',
-  'fh',
-  'fhr',
   'fl',
   'fr',
   'g',
@@ -68,8 +57,6 @@ const ONSET = [
   'l',
   'lh',
   'm',
-  'm',
-  'n',
   'n',
   'p',
   'ph',
@@ -106,9 +93,11 @@ const CODA = [
   'ch',
   'ck',
   'cs',
+  'ct',
   'd',
   'ds',
   'f',
+  'ff',
   'ft',
   'fs',
   'g',
@@ -121,19 +110,53 @@ const CODA = [
   'k',
   'ks',
   'l',
+  'lb',
+  'lc',
+  'lch',
+  'ld',
+  'lf',
+  'lg',
+  'lj',
+  'lk',
+  'lm',
+  'ln',
+  'lp',
   'ls',
+  'lt',
   'm',
   'ms',
   'n',
   'ns',
   'p',
+  'ph',
+  'pp',
   'ps',
-  'q',
   'r',
+  'rb',
+  'rc',
+  'rch',
+  'rd',
+  'rf',
+  'rg',
+  'rk',
+  'rl',
+  'rm',
+  'rn',
+  'rp',
   'rs',
+  'rsh',
+  'rt',
+  'rth',
   's',
+  'sh',
+  'sk',
+  'sm',
+  'sp',
   'ss',
+  'st',
   't',
+  'tch',
+  'th',
   'tt',
   'ts',
   'v',
@@ -158,11 +181,12 @@ function getOnset() {
 }
 
 function getSyllable() {
-  switch ((Math.random() * 3) | 0) {
+  switch ((Math.random() * 2) | 0) {
     case 0:
       return getOnset() + getNucleus() + getCoda();
     case 1:
-      return getNucleus();
+      // return getNucleus();
+      return getOnset() + getNucleus();
     case 2:
       return getNucleus() + getCoda();
     case 3:
@@ -175,10 +199,10 @@ function getName(syllables) {
   while (result.length < syllables) {
     result.push(getSyllable());
   }
-  console.log(result);
+  console.log(result, result.join(''));
   return result.join('');
 }
 
 for (let i = 0; i < 10; i++) {
-  console.log(getName(2));
+  getName(2);
 }
