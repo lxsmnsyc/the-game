@@ -5,23 +5,16 @@
 
 ## Stats
 
-- `Boss` enemies are given 15 stat points and 3 stat points per level.
+- `Boss` enemies are given 15 stat points and 30 stat points per `Floor` level.
 - All points are applied randomly.
 
-## Weapons
+## Leveling
 
-- `Boss` starts with 5 random `Weapons`, and gains a 5 `Weapon` level per `Floor` level.
-- `Weapon` level points are applied randomly.
-
-## Active Abilities
-
-- `Boss` starts with 10 random `Active Ability`, and gains a 5 `Active Ability` level per `Floor` level.
-- `Active Ability` level points are applied randomly.
-
-## Passive Abilities
-
-- `Boss` starts with 10 random `Passive Ability`, and gains a 5 `Active Ability` level per `Floor` level.
-- `Passive Ability` level points are applied randomly.
+- `Boss` starts with 5 random `Weapons`.
+- `Boss` starts with 10 random `Active Ability`.
+- `Boss` starts with 10 random `Passive Ability`.
+- `Boss` gains 10 level points per `Floor` level.
+- Each level point is applied randomly.
 
 ## Property
 

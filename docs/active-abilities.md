@@ -5,15 +5,12 @@
 
 ## Player
 
-- `Player` can choose up to 5 `Active Ability` at the start of the game. This cannot be changed throughout the entire gameplay.
-- `Player` gains 1 `Active Ability` level per `Player` level.
+- `Player` can choose up to 5 `Active Ability` at the start of the game. This cannot be changed throughout the entire gameplay..
 
 ## Boss
 
-- `Boss` are given 10 random `Active Ability` and gains 5 `Active Ability` level per `Floor` level.
-- `Active Ability` level points are applied randomly.
+- `Boss` are given 10 random `Active Ability`.
 
 ## Miniboss
 
-- `Miniboss` are given 3 random `Active Ability` and gains 5 `Active Ability` level per `Floor` level.
-- `Active Ability` level points are applied randomly.
+- `Miniboss` are given 3 random `Active Ability`.

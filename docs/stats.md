@@ -21,7 +21,7 @@ Main Stats are the stats of the user that can be leveled up by choice.
 ### Agility
 
 - Each point increases `Movespeed` by 1 (capped at 500)
-- Each point increases `Cooldown Reduction` by 1
+- Each point increases `Casting Time Reduction` by 1
 
 ### Intelligence
 
@@ -31,7 +31,7 @@ Main Stats are the stats of the user that can be leveled up by choice.
 ### Luck
 
 - Each point increases `Critical Chance` by 1
-- Each point increases `Status Resistance` by 1
+- Each point increases `Debuff Resistance` by 1
 
 > **NOTE**
 > Percentage-scaling that is affected by stats follows the same formula:
@@ -57,6 +57,7 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 - Effectiveness of healing and `Health Regen`
 - Gains 1 `Recovery` per `Vitality`
 - Starts with 100% `Recovery`
+- `Recovery` is a percentage-scaling pseudo stat.
 
 ### Physical Damage
 
@@ -68,6 +69,7 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 - Reduces incoming `Physical Damage`
 - Gains 1 `Physical Defense` per `Strength`
 - Starts with 0 `Physical Defense`
+- `Physical Defense` is a percentage-scaling pseudo stat.
 
 ### Magical Damage
 
@@ -79,6 +81,7 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 - Reduces incoming `Magical Damage`
 - Gains 1 `Magical Defense` per `Intelligence`
 - Starts with 0 `Magical Defense`
+- `Magical Defense` is a percentage-scaling pseudo stat.
 
 ### Movespeed
 
@@ -88,20 +91,29 @@ Pseudo-Stats are stats whose values are mainly derived from Main Stats.
 ### Cooldown Reduction
 
 - Decreases time between attacks.
-- Gains 1 `Cooldown Reduction` per `Agility`
 - Starts with 0 `Cooldown Reduction`
+- `Cooldown Reduction` is a percentage-scaling pseudo stat.
 
-### Status Resistance
+### Casting Time Reduction
+
+- Reduces the time it takes for the attack to trigger.
+- Gains 1 `Casting Time Reduction` per `Agility`
+- Starts with 0 `Casting Time Reduction`
+- `Casting Time Reduction` is a percentage-scaling pseudo stat.
+
+### Debuff Resistance
 
 - Reduces the duration of the received `Debuff`
-- Gains 1 `Status Resistance` per `Luck`
-- Starts with 0 `Status Resistance`
+- Gains 1 `Debuff Resistance` per `Luck`
+- Starts with 0 `Debuff Resistance`
+- `Debuff Resistance` is a percentage-scaling pseudo stat.
 
 ### Critical Chance
 
 - Chance of dealing amplified `Physical Damage`
 - Gains 1 `Critical Chance` per `Luck`
 - Starts with 0 `Critical Chance`
+- `Critical Chance` is a percentage-scaling pseudo stat.
   
 ### Critical Strike
 
