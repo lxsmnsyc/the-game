@@ -50,7 +50,7 @@
 
 ### Weapon
 
-| `Boss`\\`Rarity` | `Common` | `Uncommon` | `Rare` | `Legendary` | `Mythical` | `Epic` | `Primordial` |
+| `Boss`\\`Weapon` | `Common` | `Uncommon` | `Rare` | `Legendary` | `Mythical` | `Epic` | `Primordial` |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `Common` | `64%`/`32%` | `16%`/`8%` | `4%`/`2%` | `1%`/`0.5%` | `0.25%`/`0.125%` | `0.0625%`/`0.03125%` | `0.015625%`/`0%` |
 | `Uncommon` | --- | `64%`/`32%` | `16%`/`8%` | `4%`/`2%` | `1%`/`0.5%` | `0.25%`/`0.125%` | `0.0625%`/`0.03125%` |
@@ -65,7 +65,7 @@
 
 ### Runes
 
-| `Boss`\\`Rarity` | `Common` | `Uncommon` | `Rare` | `Legendary` | `Mythical` | `Epic` | `Primordial` |
+| `Boss`\\`Rune` | `Common` | `Uncommon` | `Rare` | `Legendary` | `Mythical` | `Epic` | `Primordial` |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `Common` | `64%`/`32%` | `16%`/`8%` | `4%`/`2%` | `1%`/`0.5%` | `0.25%`/`0.125%` | `0.0625%`/`0.03125%` | `0.015625%`/`0%` |
 | `Uncommon` | --- | `64%`/`32%` | `16%`/`8%` | `4%`/`2%` | `1%`/`0.5%` | `0.25%`/`0.125%` | `0.0625%`/`0.03125%` |
