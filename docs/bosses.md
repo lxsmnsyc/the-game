@@ -22,46 +22,59 @@
 - `Boss` enemies have 4 random `Offensive Property` and 4 random `Defensive` Property`
 - `Boss` gains 4 `Property` level per `Floor` level, and is distributed randomly.
 
+## Rarity
+
+- These are following rarities:
+  - `Common Boss`: +100% stat multiplier
+  - `Uncommon Boss`: +150% stat multiplier
+  - `Rare Boss`: +225% stat multiplier
+  - `Legendary Boss`: +337.5% stat multiplier
+  - `Mythical Boss`: +506.25% stat multiplier
+  - `Epic Boss`: +759.375% stat multiplier
+  - `Primordial Boss`: +1139.0625 stat multiplier
+
+| `Rarity` | Stat Multiplier | Chance of Spawn |
+| --- | --- | --- |
+| `Common` | `100%` | --- |
+| `Uncommon` | `150%` | `25%` |
+| `Rare` | `225%` | `6.25%` |
+| `Legendary` | `337.5%` | `1.5625%` |
+| `Mythical` | `506.25%` | `0.390625%` |
+| `Epic` | `759.375%` | `0.09765625%` |
+| `Primordial` | `1139.0625%` | `0.0244140625%` |
+
+> [!NOTE]
+> All spawn chance share the same base odds (which means that all of these are determined in a single roll).
+
 ## Drops
 
-- When getting killed, the following scenario happens:
-  - at 64% chance (16 of 25)
-    - 1 random `Weapon` or `Equipment` of `Common` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Common` quality.
-  - otherwise at 32% chance (8 of 25)
-    - 2 random `Weapon` or `Equipment` of `Common` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Common` quality.
-  - otherwise at 16% chance (4 of 25)
-    - 1 random `Weapon` or `Equipment` of `Uncommon` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Uncommon` quality.
-  - otherwise at 8% chance (2 of 25)
-    - 2 random `Weapon` or `Equipment` of `Uncommon` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Uncommon` quality.
-  - otherwise at 4% chance (1 of 25)
-    - 1 random `Weapon` or `Equipment` of `Rare` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Rare` quality.
-  - otherwise at 2% chance (1 of 50)
-    - 2 random `Weapon` or `Equipment` of `Rare` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Rare` quality.
-  - otherwise at 1% chance (1 of 100)
-    - 1 random `Weapon` or `Equipment` of `Legendary` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Legendary` quality.
-  - otherwise at 0.5% chance (1 of 200)
-    - 2 random `Weapon` or `Equipment` of `Legendary` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Legendary` quality.
-  - otherwise at 0.25% chance (1 of 400)
-    - 1 random `Weapon` or `Equipment` of `Mythical` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Mythical` quality.
-  - otherwise at 0.125% chance (1 of 800)
-    - 2 random `Weapon` or `Equipment` of `Mythical` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Mythical` quality.
-  - otherwise at 0.0625% chance (1 of 1600)
-    - 1 random `Weapon` or `Equipment` of `Epic` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Epic` quality.
-  - otherwise at 0.03125% chance (1 of 3200)
-    - 2 random `Weapon` or `Equipment` of `Epic` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Epic` quality.
-  - otherwise at 0.015625% chance (1 of 6400)
-    - 1 random `Weapon` or `Equipment` of `Primordial` quality.
-    - 1 random `Rune` of `Offensive` or `Defensive` property of `Primordial` quality.
-- The chance table shares the same instance of odds.
+### Weapon
+
+| `Boss` \ `Rarity` | `Common` | `Uncommon` | `Rare` | `Legendary` | `Mythical` | `Epic` | `Primordial` |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `Common` | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` | | `1%` & `0.5%` | `0.25%` & `0.125%` | `0.0625%` & `0.03125%` | `0.015625%` & `0%` |
+| `Uncommon` | --- | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` | | `1%` & `0.5%` | `0.25%` & `0.125%` | `0.0625%` & `0.03125%` |
+| `Rare` | --- | --- | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` | | `1%` & `0.5%` | `0.25%` & `0.125%` | 
+| `Legendary` | --- | --- | --- | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` | `1%` & `0.5%` |
+| `Mythical` | --- | --- | --- | --- | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` |
+| `Epic` | --- | --- | --- | --- | --- | `64%` & `32%` | `16%` & `8%` |
+| `Primordial` | --- | --- | --- | --- | --- | --- | `64%` & `32%` |
+
+> [!NOTE]
+> The latter chance indicates a drop of amount of 2.
+
+### Runes
+
+| `Boss` \ `Rarity` | `Common` | `Uncommon` | `Rare` | `Legendary` | `Mythical` | `Epic` | `Primordial` |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `Common` | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` | | `1%` & `0.5%` | `0.25%` & `0.125%` | `0.0625%` & `0.03125%` | `0.015625%` & `0%` |
+| `Uncommon` | --- | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` | | `1%` & `0.5%` | `0.25%` & `0.125%` | `0.0625%` & `0.03125%` |
+| `Rare` | --- | --- | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` | | `1%` & `0.5%` | `0.25%` & `0.125%` | 
+| `Legendary` | --- | --- | --- | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` | `1%` & `0.5%` |
+| `Mythical` | --- | --- | --- | --- | `64%` & `32%` | `16%` & `8%` | `4%` & `2%` |
+| `Epic` | --- | --- | --- | --- | --- | `64%` & `32%` | `16%` & `8%` |
+| `Primordial` | --- | --- | --- | --- | --- | --- | `64%` & `32%` |
+
+> [!NOTE]
+> Both chances only drops 1 `Rune`
+> The same odds is applied to `Weapon Drops`.

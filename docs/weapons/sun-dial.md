@@ -1,4 +1,4 @@
-# Hour Glass
+# Sun Dial
 
 ## Description
 
