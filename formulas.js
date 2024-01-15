@@ -15,5 +15,13 @@ export function getBossRarityStatMultiplier(rarity) {
 }
 
 export function getBossWeaponDropOdds(bossRarity, weaponRarity, amount) {
-  return 1 / ((0.64 / (4 ** (weaponRarity - bossRarity - 1))) / amount);
+  return 1 / ((0.64 / (4 ** (weaponRarity - bossRarity))) / amount);
+}
+
+export function getBossEquipmentDropOdds(bossRarity, weaponRarity, amount) {
+  return 1 / ((0.64 / (4 ** (weaponRarity - bossRarity))) / amount);
+}
+
+export function getBossRuneDropOdds(bossRarity, weaponRarity, amount) {
+  return 1 / ((0.64 / (4 ** (weaponRarity - bossRarity))) / amount);
 }
