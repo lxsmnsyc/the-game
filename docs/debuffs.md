@@ -1,26 +1,40 @@
 # Debuffs
 
-## Poisoned
+## Stacking
 
-- Deals `(3 * Physical Damage) * (1 - (Physical Defense / 100))` non-fatal physical damage per second.
-- Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Debuff Resistance / 100))` seconds.
+### Poisoned
 
-## Bleeding
+- Deals `Physical Damage` based on the amount of stacks per second and consumes 25% of the stack with a minimum of 10 stacks.
+- The damage dealt cannot trigger `Critical Chance`.
+- The damage dealt is non-lethal.
 
-- Deals `(3 * Physical Damage) * (1 - (Physical Defense / 100))` physical damage per second.
-- Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Debuff Resistance / 100))` seconds.
+### Bleeding
 
-## Burning
+- Deals `Physical Damage` based on the amount of stacks per second and consumes 25% of the stack with a minimum of 10 stacks.
+- The damage dealt cannot trigger `Critical Chance`.
+- The damage dealt is lethal.
 
-- Deals `(3 * Magical Damage) * (1 - (Magical Defense / 100))` non-fatal magical damage per second.
-- Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Debuff Resistance / 100))` seconds.
+### Burning
 
-## Cursed
+- Deals `Magical Damage` based on the amount of stacks per second and consumes 25% of the stack with a minimum of 10 stacks.
+- The damage dealt is non-lethal.
 
-- Deals `(3 * Magical Damage) * (1 - (Magical Defense / 100))` magical damage per second.
-- Duration lasts for `(3 * Debuff Level * Duration) * (1 - (Debuff Resistance / 100))` seconds.
+### Doomed
 
-## Stunned
+- Deals `Magical Damage` based on the amount of stacks per second and consumes 25% of the stack with a minimum of 10 stacks.
+- The damage dealt is lethal.
+
+### Injured
+
+- Deals `Physical Damage` based on the amount of stacks for the next instance of `Physical Damage` received and consumes 25% of the stack with a minimum of 10 stacks.
+
+### Cursed
+
+- Deals `Magical Damage` based on the amount of stacks for the next instance of `Magical Damage` received and consumes 25% of the stack with a minimum of 10 stacks.
+
+## Non-stacking
+
+### Stunned
 
 - Unit is unable to move, attack or cast abilities while affected by `Stun`.
 - Duration lasts for `(1 * Debuff Level * Duration) * (1 - (Debuff Resistance / 100))` seconds.
